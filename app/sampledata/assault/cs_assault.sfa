@@ -1,0 +1,4581 @@
+{
+   bound_relative_root: {
+      x: 0.5,
+      y: 0,
+      z: 0.5,
+   },
+   materials: [
+      {
+         name: "texture_0",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_0",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_1",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_1",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_2",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_2",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_3",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_3",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_4",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_4",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_5",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_5",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_6",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_6",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_7",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_7",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_8",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_8",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_9",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_9",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_10",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_10",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_11",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_11",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_12",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_12",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_13",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_13",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_14",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_14",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_15",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_15",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_16",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_16",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_17",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_17",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_18",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_18",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_19",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_19",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_20",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_20",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_21",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_21",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_22",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_22",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_23",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_23",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_24",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_24",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_25",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_25",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_26",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_26",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_27",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_27",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_28",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_28",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_29",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_29",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_30",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_30",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_31",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_31",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_32",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_32",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_33",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_33",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_34",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_34",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_35",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_35",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_36",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_36",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_37",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_37",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_38",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_38",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_39",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_39",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_40",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_40",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_41",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_41",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_42",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_42",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_43",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_43",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_44",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_44",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_45",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_45",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_46",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_46",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_47",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_47",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_48",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_48",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_49",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_49",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_50",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_50",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_51",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_51",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_52",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_52",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_53",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_53",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_54",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_54",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_55",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_55",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_56",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_56",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_57",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_57",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_58",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_58",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_59",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_59",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_60",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_60",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_61",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_61",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_62",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_62",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_63",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_63",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_64",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_64",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_65",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_65",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_66",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_66",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_67",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_67",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_68",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_68",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_69",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_69",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_70",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_70",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_71",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_71",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_72",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_72",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_73",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_73",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_74",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_74",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_75",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_75",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_76",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_76",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_77",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_77",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_78",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_78",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_79",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_79",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_80",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_80",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_81",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_81",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_82",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_82",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_83",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_83",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_84",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_84",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_85",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_85",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_86",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_86",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_87",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_87",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_88",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_88",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_89",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_89",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_90",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_90",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_91",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_91",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_92",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_92",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_93",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_93",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_94",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_94",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_95",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_95",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_96",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_96",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_97",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_97",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_98",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_98",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_99",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_99",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_100",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_100",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_101",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_101",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_102",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_102",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_103",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_103",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_104",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_104",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_105",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_105",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_106",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_106",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_107",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_107",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_108",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_108",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_109",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_109",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_110",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_110",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_111",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_111",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_112",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_112",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_113",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_113",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_114",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_114",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_115",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_115",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_116",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_116",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_117",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_117",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_118",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_118",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_119",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_119",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_120",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_120",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_121",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_121",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_122",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_122",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_123",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_123",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_124",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_124",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_125",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_125",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_126",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_126",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_127",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_127",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_128",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_128",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_129",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_129",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_130",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_130",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_131",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_131",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_132",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_132",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_133",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_133",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_134",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_134",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_135",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_135",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_136",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_136",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_137",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_137",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_138",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_138",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_139",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_139",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_140",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_140",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_141",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_141",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_142",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_142",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_143",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_143",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_144",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_144",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_145",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_145",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "texture_146",
+         parameters: [
+            {
+               baseColor: "cs_assault_texture_146",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+   ],
+   model: {
+      attributes: [
+         "Position",
+         "TexCoord",
+         "Orientation",
+      ],
+      collision: {},
+      file: "sampledata/assault/cs_assault.obj",
+      name: "cs_assault",
+      recenter: "root",
+      scale: 0.001302,
+   },
+   samplers: [
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_20.jpg",
+         name: "cs_assault_texture_20",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_20.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_8.jpg",
+         name: "cs_assault_texture_8",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_8.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_134.jpg",
+         name: "cs_assault_texture_134",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_134.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_64.jpg",
+         name: "cs_assault_texture_64",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_64.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_28.jpg",
+         name: "cs_assault_texture_28",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_28.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_145.jpg",
+         name: "cs_assault_texture_145",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_145.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_0.jpg",
+         name: "cs_assault_texture_0",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_0.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_15.jpg",
+         name: "cs_assault_texture_15",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_15.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_29.jpg",
+         name: "cs_assault_texture_29",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_29.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_144.jpg",
+         name: "cs_assault_texture_144",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_144.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_1.jpg",
+         name: "cs_assault_texture_1",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_1.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_14.jpg",
+         name: "cs_assault_texture_14",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_14.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_2.jpg",
+         name: "cs_assault_texture_2",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_2.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_17.jpg",
+         name: "cs_assault_texture_17",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_17.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_146.jpg",
+         name: "cs_assault_texture_146",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_146.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_3.jpg",
+         name: "cs_assault_texture_3",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_3.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_16.jpg",
+         name: "cs_assault_texture_16",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_16.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_130.jpg",
+         name: "cs_assault_texture_130",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_130.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_60.jpg",
+         name: "cs_assault_texture_60",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_60.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_141.jpg",
+         name: "cs_assault_texture_141",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_141.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_4.jpg",
+         name: "cs_assault_texture_4",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_4.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_11.jpg",
+         name: "cs_assault_texture_11",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_11.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_131.jpg",
+         name: "cs_assault_texture_131",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_131.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_61.jpg",
+         name: "cs_assault_texture_61",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_61.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_140.jpg",
+         name: "cs_assault_texture_140",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_140.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_5.jpg",
+         name: "cs_assault_texture_5",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_5.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_10.jpg",
+         name: "cs_assault_texture_10",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_10.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_132.jpg",
+         name: "cs_assault_texture_132",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_132.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_62.jpg",
+         name: "cs_assault_texture_62",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_62.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_143.jpg",
+         name: "cs_assault_texture_143",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_143.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_6.jpg",
+         name: "cs_assault_texture_6",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_6.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_13.jpg",
+         name: "cs_assault_texture_13",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_13.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_133.jpg",
+         name: "cs_assault_texture_133",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_133.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_63.jpg",
+         name: "cs_assault_texture_63",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_63.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_142.jpg",
+         name: "cs_assault_texture_142",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_142.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_7.jpg",
+         name: "cs_assault_texture_7",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_7.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_12.jpg",
+         name: "cs_assault_texture_12",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_12.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_21.jpg",
+         name: "cs_assault_texture_21",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_21.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_9.jpg",
+         name: "cs_assault_texture_9",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_9.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_25.jpg",
+         name: "cs_assault_texture_25",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_25.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_18.jpg",
+         name: "cs_assault_texture_18",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_18.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_24.jpg",
+         name: "cs_assault_texture_24",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_24.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_19.jpg",
+         name: "cs_assault_texture_19",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_19.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_22.jpg",
+         name: "cs_assault_texture_22",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_22.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_23.jpg",
+         name: "cs_assault_texture_23",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_23.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_26.jpg",
+         name: "cs_assault_texture_26",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_26.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_27.jpg",
+         name: "cs_assault_texture_27",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_27.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_30.jpg",
+         name: "cs_assault_texture_30",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_30.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_31.jpg",
+         name: "cs_assault_texture_31",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_31.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_32.jpg",
+         name: "cs_assault_texture_32",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_32.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_33.jpg",
+         name: "cs_assault_texture_33",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_33.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_34.jpg",
+         name: "cs_assault_texture_34",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_34.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_35.jpg",
+         name: "cs_assault_texture_35",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_35.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_36.jpg",
+         name: "cs_assault_texture_36",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_36.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_37.jpg",
+         name: "cs_assault_texture_37",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_37.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_38.jpg",
+         name: "cs_assault_texture_38",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_38.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_39.jpg",
+         name: "cs_assault_texture_39",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_39.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_110.jpg",
+         name: "cs_assault_texture_110",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_110.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_40.jpg",
+         name: "cs_assault_texture_40",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_40.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_111.jpg",
+         name: "cs_assault_texture_111",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_111.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_41.jpg",
+         name: "cs_assault_texture_41",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_41.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_112.jpg",
+         name: "cs_assault_texture_112",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_112.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_42.jpg",
+         name: "cs_assault_texture_42",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_42.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_113.jpg",
+         name: "cs_assault_texture_113",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_113.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_43.jpg",
+         name: "cs_assault_texture_43",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_43.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_114.jpg",
+         name: "cs_assault_texture_114",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_114.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_44.jpg",
+         name: "cs_assault_texture_44",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_44.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_115.jpg",
+         name: "cs_assault_texture_115",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_115.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_45.jpg",
+         name: "cs_assault_texture_45",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_45.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_116.jpg",
+         name: "cs_assault_texture_116",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_116.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_46.jpg",
+         name: "cs_assault_texture_46",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_46.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_117.jpg",
+         name: "cs_assault_texture_117",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_117.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_47.jpg",
+         name: "cs_assault_texture_47",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_47.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_118.jpg",
+         name: "cs_assault_texture_118",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_118.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_48.jpg",
+         name: "cs_assault_texture_48",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_48.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_119.jpg",
+         name: "cs_assault_texture_119",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_119.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_49.jpg",
+         name: "cs_assault_texture_49",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_49.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_100.jpg",
+         name: "cs_assault_texture_100",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_100.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_50.jpg",
+         name: "cs_assault_texture_50",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_50.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_101.jpg",
+         name: "cs_assault_texture_101",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_101.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_51.jpg",
+         name: "cs_assault_texture_51",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_51.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_102.jpg",
+         name: "cs_assault_texture_102",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_102.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_52.jpg",
+         name: "cs_assault_texture_52",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_52.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_103.jpg",
+         name: "cs_assault_texture_103",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_103.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_53.jpg",
+         name: "cs_assault_texture_53",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_53.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_104.jpg",
+         name: "cs_assault_texture_104",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_104.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_54.jpg",
+         name: "cs_assault_texture_54",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_54.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_105.jpg",
+         name: "cs_assault_texture_105",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_105.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_55.jpg",
+         name: "cs_assault_texture_55",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_55.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_106.jpg",
+         name: "cs_assault_texture_106",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_106.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_56.jpg",
+         name: "cs_assault_texture_56",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_56.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_107.jpg",
+         name: "cs_assault_texture_107",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_107.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_57.jpg",
+         name: "cs_assault_texture_57",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_57.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_108.jpg",
+         name: "cs_assault_texture_108",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_108.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_58.jpg",
+         name: "cs_assault_texture_58",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_58.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_109.jpg",
+         name: "cs_assault_texture_109",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_109.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_59.jpg",
+         name: "cs_assault_texture_59",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_59.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_135.jpg",
+         name: "cs_assault_texture_135",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_135.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_65.jpg",
+         name: "cs_assault_texture_65",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_65.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_136.jpg",
+         name: "cs_assault_texture_136",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_136.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_66.jpg",
+         name: "cs_assault_texture_66",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_66.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_137.jpg",
+         name: "cs_assault_texture_137",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_137.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_67.jpg",
+         name: "cs_assault_texture_67",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_67.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_138.jpg",
+         name: "cs_assault_texture_138",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_138.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_68.jpg",
+         name: "cs_assault_texture_68",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_68.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_139.jpg",
+         name: "cs_assault_texture_139",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_139.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_69.jpg",
+         name: "cs_assault_texture_69",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_69.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_120.jpg",
+         name: "cs_assault_texture_120",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_120.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_70.jpg",
+         name: "cs_assault_texture_70",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_70.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_121.jpg",
+         name: "cs_assault_texture_121",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_121.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_71.jpg",
+         name: "cs_assault_texture_71",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_71.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_122.jpg",
+         name: "cs_assault_texture_122",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_122.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_72.jpg",
+         name: "cs_assault_texture_72",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_72.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_123.jpg",
+         name: "cs_assault_texture_123",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_123.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_73.jpg",
+         name: "cs_assault_texture_73",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_73.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_124.jpg",
+         name: "cs_assault_texture_124",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_124.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_74.jpg",
+         name: "cs_assault_texture_74",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_74.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_125.jpg",
+         name: "cs_assault_texture_125",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_125.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_75.jpg",
+         name: "cs_assault_texture_75",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_75.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_126.jpg",
+         name: "cs_assault_texture_126",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_126.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_76.jpg",
+         name: "cs_assault_texture_76",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_76.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_127.jpg",
+         name: "cs_assault_texture_127",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_127.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_77.jpg",
+         name: "cs_assault_texture_77",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_77.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_128.jpg",
+         name: "cs_assault_texture_128",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_128.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_78.jpg",
+         name: "cs_assault_texture_78",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_78.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_129.jpg",
+         name: "cs_assault_texture_129",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_129.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_79.jpg",
+         name: "cs_assault_texture_79",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_79.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_80.jpg",
+         name: "cs_assault_texture_80",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_80.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_81.jpg",
+         name: "cs_assault_texture_81",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_81.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_82.jpg",
+         name: "cs_assault_texture_82",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_82.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_83.jpg",
+         name: "cs_assault_texture_83",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_83.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_84.jpg",
+         name: "cs_assault_texture_84",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_84.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_85.jpg",
+         name: "cs_assault_texture_85",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_85.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_86.jpg",
+         name: "cs_assault_texture_86",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_86.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_87.jpg",
+         name: "cs_assault_texture_87",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_87.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_88.jpg",
+         name: "cs_assault_texture_88",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_88.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_89.jpg",
+         name: "cs_assault_texture_89",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_89.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_90.jpg",
+         name: "cs_assault_texture_90",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_90.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_91.jpg",
+         name: "cs_assault_texture_91",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_91.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_92.jpg",
+         name: "cs_assault_texture_92",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_92.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_93.jpg",
+         name: "cs_assault_texture_93",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_93.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_94.jpg",
+         name: "cs_assault_texture_94",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_94.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_95.jpg",
+         name: "cs_assault_texture_95",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_95.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_96.jpg",
+         name: "cs_assault_texture_96",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_96.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_97.jpg",
+         name: "cs_assault_texture_97",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_97.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_98.jpg",
+         name: "cs_assault_texture_98",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_98.jpg",
+      },
+      {
+         file: "sampledata/assault\\Amadeus maps\\cs_assault_texture_99.jpg",
+         name: "cs_assault_texture_99",
+         pipeline_name: "Amadeus maps\\cs_assault_texture_99.jpg",
+      },
+   ],
+   version: "0.52:1",
+}

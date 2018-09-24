@@ -46,23 +46,24 @@ class SceneOrchestrator(private val anchorNode: AnchorNode, private val context:
         val immovableNodesCollector = collectImmovableNodes(sceneConfig)
         val movableNodesCollector = collectMovableNodes(sceneConfig)
 
-        val worldBoundsCreator = createWorldBoundsNode()
+        val worldBoundsCreator = createWorldBoundsNode(sceneConfig.worldBounds as Box)
 
         return immovableNodesCollector.mergeWith(movableNodesCollector).mergeWith(worldBoundsCreator)
             .subscribeOn(Schedulers.computation())
             .observeOn(AndroidSchedulers.mainThread())
-            .collectInto(mapOf(true to mutableListOf<Node>(), false to mutableListOf())) { map, markedNode ->
-                map[markedNode.immovable]?.add(markedNode.node)
+            .collectInto(mapOf(true to mutableListOf<Node>(), false to mutableListOf()))
+            { map, (isImmovable, node) ->
+                map[isImmovable]?.add(node)
             }
             .map { map ->
                 SceneElements(map[true]!!.toList(), map[false]!!.toList())
             }
     }
 
-    private fun createWorldBoundsNode(): Single<MarkedNode> {
+    private fun createWorldBoundsNode(worldBounds: Box): Single<MarkedNode> {
         return Single.fromFuture(MaterialFactory.makeTransparentWithColor(context, worldBoxColor))
             .subscribeOn(AndroidSchedulers.mainThread())
-            .map { material -> MarkedNode(immovable = true, node = createWorldNode(material, anchorNode)) }
+            .map { material -> MarkedNode(immovable = true, node = createWorldNode(worldBounds, material, anchorNode)) }
     }
 
     private fun collectMovableNodes(sceneConfig: SceneConfig): Flowable<MarkedNode> {
@@ -85,12 +86,12 @@ class SceneOrchestrator(private val anchorNode: AnchorNode, private val context:
             .map { MarkedNode(immovable = true, node = it) }
     }
 
-    private fun createWorldNode(material: Material, parent: NodeParent): Node {
-        val modelRenderable = ShapeFactory.makeCube(defaultWorldSize, zero, material)
+    private fun createWorldNode(worldBounds: Box, material: Material, parent: NodeParent): Node {
+        val modelRenderable = ShapeFactory.makeCube(worldBounds.size, worldBounds.center, material)
         modelRenderable.isShadowCaster = false
         modelRenderable.isShadowReceiver = false
 
-        return Node().apply{
+        return Node().apply {
             renderable = modelRenderable
             setParent(parent)
         }
@@ -109,7 +110,9 @@ class SceneOrchestrator(private val anchorNode: AnchorNode, private val context:
     }
 
     private fun createMovableNode(pose: Pose, material: Material, parent: NodeParent): Node {
-        val renderable = ShapeFactory.makeSphere(0.1f, Vector3.zero(), material)
+        val renderable = ShapeFactory.makeSphere(
+            defaultMovableSphereRadius, Vector3(0f, defaultMovableSphereRadius / 2, 0f), material
+        )
 
         return Node().apply {
             setRenderable(renderable)

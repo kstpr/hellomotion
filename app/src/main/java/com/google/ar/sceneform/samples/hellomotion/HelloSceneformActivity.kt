@@ -30,6 +30,8 @@ import com.google.ar.core.Plane
 import com.google.ar.sceneform.AnchorNode
 import com.google.ar.sceneform.ux.ArFragment
 
+
+
 class HelloSceneformActivity : AppCompatActivity() {
 
     private lateinit var arFragment: ArFragment
@@ -53,7 +55,7 @@ class HelloSceneformActivity : AppCompatActivity() {
             val newAnchor = hitResult.createAnchor()
             val anchorNode = AnchorNode().apply {
                 anchor = newAnchor
-                setParent(arFragment.arSceneView.scene)
+                setParent(arFragment.arSceneView.scene.hitTest())
             }
 
             sceneCreated = true
