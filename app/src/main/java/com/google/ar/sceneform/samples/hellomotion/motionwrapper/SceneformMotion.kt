@@ -42,7 +42,12 @@ class SceneformMotion(private val scene: Scene) {
         motion.registerMovable(movableNode.toMovable(id = index))
     }
 
-    fun registerImmovable(immovableNode: Node) {}
+    fun registerImmovable(immovableNode: Node) {
+        val index = (idOfImmovableToNode.keys.max() ?: 0) + 1
+        idOfImmovableToNode[index] = immovableNode
+
+        motion.registerImmovable(immovableNode.toImmovable(id = index))
+    }
 
     private fun indexAndRegisterSolids(nodes: List<Node>, indexToNodeMap: MutableMap<Long, Node>,
                                        createSolid: Node.(Long) -> Solid): List<Solid> {

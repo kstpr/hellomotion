@@ -8,7 +8,7 @@ import net.vectorworks.motion.math.Vector3
  *
  * @author kpresnakov
  */
-class Immovable(
+data class Immovable(
     override val id: Long,
     override val coordinates: Vector3,
     override val collisionShape: CollisionShape) : Solid

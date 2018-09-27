@@ -5,4 +5,4 @@ package net.vectorworks.motion.core
  *
  * @author kpresnakov
  */
-class Plane
+class HorizontalPlane

@@ -55,7 +55,7 @@ class HelloSceneformActivity : AppCompatActivity() {
             val newAnchor = hitResult.createAnchor()
             val anchorNode = AnchorNode().apply {
                 anchor = newAnchor
-                setParent(arFragment.arSceneView.scene.hitTest())
+                setParent(arFragment.arSceneView.scene)
             }
 
             sceneCreated = true
