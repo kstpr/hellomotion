@@ -3,6 +3,7 @@ package com.google.ar.sceneform.samples.hellomotion.motionwrapper
 import com.google.ar.sceneform.Node
 import net.vectorworks.motion.core.Immovable
 import net.vectorworks.motion.core.Movable
+import net.vectorworks.motion.math.linearalgebra.Vector3
 
 /**
  * Created on 9/24/2018.
@@ -11,7 +12,7 @@ import net.vectorworks.motion.core.Movable
  */
 
 typealias SceneformVector3 = com.google.ar.sceneform.math.Vector3
-typealias MotionVector3 = net.vectorworks.motion.math.Vector3
+typealias MotionVector3 = Vector3
 typealias SceneformCollisionShape = com.google.ar.sceneform.collision.CollisionShape
 typealias MotionCollisionShape = net.vectorworks.motion.collision.CollisionShape
 

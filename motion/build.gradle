@@ -8,7 +8,9 @@ dependencies {
 
     implementation "io.reactivex.rxjava2:rxjava:2.2.2"
     testImplementation 'junit:junit:4.12'
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib"
+    testCompile "org.jetbrains.kotlin:kotlin-test:$kotlin_version"
 }
 repositories {
     mavenCentral()

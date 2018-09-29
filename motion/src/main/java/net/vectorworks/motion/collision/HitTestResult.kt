@@ -1,6 +1,6 @@
 package net.vectorworks.motion.collision
 
-import net.vectorworks.motion.math.Vector3
+import net.vectorworks.motion.math.linearalgebra.Vector3
 
 /**
  * Created on 9/23/2018.

@@ -1,6 +1,7 @@
 package net.vectorworks.motion.kinematics
 
-import net.vectorworks.motion.math.Vector3
+import net.vectorworks.motion.math.linearalgebra.Vector3
+import net.vectorworks.motion.math.linearalgebra.length
 
 /**
  * Created on 9/27/2018.

@@ -1,7 +1,7 @@
 package net.vectorworks.motion.core
 
 import net.vectorworks.motion.collision.CollisionShape
-import net.vectorworks.motion.math.Vector3
+import net.vectorworks.motion.math.linearalgebra.Vector3
 
 /**
  * Created on 9/23/2018.

@@ -37,7 +37,7 @@ class Motion(private val collider: Collider) {
     }
 
     fun start() {
-        movables.randomizeVelocities()
+//        movables.randomizeVelocities()
         periodicExecutor.execute {
 
         }
@@ -47,6 +47,6 @@ class Motion(private val collider: Collider) {
 
 }
 
-private fun List<Movable>.randomizeVelocities() {
-    this.forEach{ it.velocity = }
-}
+//private fun List<Movable>.randomizeVelocities() {
+//    this.forEach{ it.velocity = }
+//}
