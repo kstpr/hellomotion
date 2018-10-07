@@ -1,4 +1,4 @@
-package net.vectorworks.motion.time
+package net.vectorworks.motion.loop
 
 import io.reactivex.Flowable
 import io.reactivex.disposables.Disposable
@@ -12,7 +12,6 @@ import io.reactivex.disposables.Disposable
  * @author kpresnakov
  */
 
-
 class PeriodicExecutor {
 
     var periodicTaskDisposable: Disposable? = null
@@ -20,7 +19,7 @@ class PeriodicExecutor {
     // Extremely rough and testing-only update mechanism, ensure that periodicTask <= 16.67 ms, else we should have
     // a mechanism for skipping frames
     fun execute(emissionFrequency: Long = 60L, periodicTask: () -> Unit) {
-        val intervalInMillis = (1 / emissionFrequency) * 1000L
+        val intervalInMillis = ((1.0 / emissionFrequency) * 1_000L).toLong()
         periodicTaskDisposable = Flowable.interval(intervalInMillis, java.util.concurrent.TimeUnit.MILLISECONDS)
             .subscribe { periodicTask() }
     }

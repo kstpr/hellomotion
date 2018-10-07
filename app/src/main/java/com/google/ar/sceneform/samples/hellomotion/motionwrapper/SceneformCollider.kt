@@ -4,7 +4,7 @@ import com.google.ar.sceneform.Scene
 import net.vectorworks.motion.collision.Collider
 import net.vectorworks.motion.collision.HitTestResult
 import net.vectorworks.motion.collision.Ray
-import net.vectorworks.motion.core.Solid
+import net.vectorworks.motion.core.RigidBody
 
 /**
  * Created on 9/23/2018.
@@ -28,19 +28,19 @@ class SceneformCollider(val scene: Scene) : Collider {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
-    override fun overlapTest(solid: Solid): Solid {
+    override fun overlapTest(rigidBody: RigidBody): RigidBody {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
-    override fun overlapTestAll(solid: Solid): List<Solid> {
+    override fun overlapTestAll(rigidBody: RigidBody): List<RigidBody> {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
-    override fun overlapTestPlane(solid: Solid): Boolean {
+    override fun overlapTestPlane(rigidBody: RigidBody): Boolean {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
-    override fun overlapTestWorldBounds(solid: Solid): Boolean {
+    override fun overlapTestWorldBounds(rigidBody: RigidBody): Boolean {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 

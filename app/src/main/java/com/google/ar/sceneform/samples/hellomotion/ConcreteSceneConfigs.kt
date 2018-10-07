@@ -2,6 +2,8 @@ package com.google.ar.sceneform.samples.hellomotion
 
 import com.google.ar.sceneform.collision.Box
 import com.google.ar.sceneform.math.Vector3
+import com.google.ar.sceneform.samples.hellomotion.motionwrapper.MotionVector3
+import net.vectorworks.motion.constraints.dim1.SegmentConstraint
 
 /**
  * Created on 9/22/2018.
@@ -16,15 +18,18 @@ const val defaultMovableSphereRadius = 0.025f
 
 val simpleScene1 by lazy {
     SceneConfig(
-        immovableDatas = listOf(
-            ImmovableData(Pose(position = Vector3(0f, 0f, 0f)), collisionShape = createBox(defaultBoxSize)),
-            ImmovableData(Pose(position = Vector3(-0.2f, 0f, -0.2f)), collisionShape = createBox(defaultBoxSize)),
-            ImmovableData(Pose(position = Vector3(0.2f, 0f, -0.2f)), collisionShape = createBox(defaultBoxSize)),
-            ImmovableData(Pose(position = Vector3(-0.2f, 0f, 0.2f)), collisionShape = createBox(defaultBoxSize)),
-            ImmovableData(Pose(position = Vector3(0.2f, 0f, 0.2f)), collisionShape = createBox(defaultBoxSize))
+        immovableData = listOf(
+            ImmovableData(MovableData(position = Vector3(0f, 0f, 0f)), collisionShape = createBox(defaultBoxSize)),
+            ImmovableData(MovableData(position = Vector3(-0.2f, 0f, -0.2f)), collisionShape = createBox(defaultBoxSize)),
+            ImmovableData(MovableData(position = Vector3(0.2f, 0f, -0.2f)), collisionShape = createBox(defaultBoxSize)),
+            ImmovableData(MovableData(position = Vector3(-0.2f, 0f, 0.2f)), collisionShape = createBox(defaultBoxSize)),
+            ImmovableData(MovableData(position = Vector3(0.2f, 0f, 0.2f)), collisionShape = createBox(defaultBoxSize))
         ),
-        initialMovablesLocalPoses = listOf(
-            Pose(position = Vector3(0.1f, 0f, -0.1f))
+        movableData = listOf(
+            MovableData(
+                position = Vector3(0.1f, 0f, -0.1f),
+                constraint = SegmentConstraint(MotionVector3.zero(), MotionVector3(0.2, .0, 0.2))
+            )
         ),
         worldBounds = createBox(defaultWorldSize)
     )

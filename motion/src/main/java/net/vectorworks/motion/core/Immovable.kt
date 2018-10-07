@@ -10,5 +10,5 @@ import net.vectorworks.motion.math.linearalgebra.Vector3
  */
 data class Immovable(
     override val id: Long,
-    override val coordinates: Vector3,
-    override val collisionShape: CollisionShape) : Solid
+    override val position: Vector3,
+    override val collisionShape: CollisionShape) : RigidBody

@@ -5,8 +5,9 @@ import com.google.ar.sceneform.Scene
 import com.google.ar.sceneform.collision.Box
 import net.vectorworks.motion.core.Immovable
 import net.vectorworks.motion.core.Movable
-import net.vectorworks.motion.core.Solid
+import net.vectorworks.motion.core.RigidBody
 import net.vectorworks.motion.engine.Motion
+import net.vectorworks.motion.engine.OnWorldChangedListener
 
 /**
  * Created on 9/23/2018.
@@ -15,24 +16,24 @@ import net.vectorworks.motion.engine.Motion
  * @author kpresnakov
  */
 
-class SceneformMotion(private val scene: Scene) {
+class SceneformMotion(private val scene: Scene) : OnWorldChangedListener {
     private val collider by lazy { SceneformCollider(scene) }
     private val motion by lazy { Motion(collider) }
 
     private val idOfMovableToNode = mutableMapOf<Long, Node>()
     private val idOfImmovableToNode = mutableMapOf<Long, Node>()
 
-    fun initialize(movableNodes: List<Node>, immovableNodes: List<Node>, worldBounds: Box?) {
+    fun initialize(movableNodes: List<Node>, immovableNodes: List<Node>, worldBounds: Box? = null) {
         val initialMovables =
-            indexAndRegisterSolids(movableNodes, idOfMovableToNode, Node::toMovable).map { it as Movable }
+            indexAndRegisterRigidBodies(movableNodes, idOfMovableToNode, Node::toMovable).map { it as Movable }
 
         val initialImmovables =
-            indexAndRegisterSolids(immovableNodes, idOfImmovableToNode, Node::toImmovable).map { it as Immovable }
+            indexAndRegisterRigidBodies(immovableNodes, idOfImmovableToNode, Node::toImmovable).map { it as Immovable }
 
         motion.initialize(initialMovables, initialImmovables, worldBounds?.toMotionCollisionShape())
     }
 
-    fun start() = motion.start()
+    fun start() = motion.start(this)
 
     fun registerMovable(movableNode: Node) {
         // TODO maybe not efficient
@@ -49,13 +50,19 @@ class SceneformMotion(private val scene: Scene) {
         motion.registerImmovable(immovableNode.toImmovable(id = index))
     }
 
-    private fun indexAndRegisterSolids(nodes: List<Node>, indexToNodeMap: MutableMap<Long, Node>,
-                                       createSolid: Node.(Long) -> Solid): List<Solid> {
+    override fun onWorldChanged(movablesData: List<Pair<Long, MotionVector3>>) {
+        movablesData.forEach { (id, position) ->
+            idOfMovableToNode[id]?.localPosition = position.toSceneformVector3()
+        }
+    }
+
+    private fun indexAndRegisterRigidBodies(nodes: List<Node>, indexToNodeMap: MutableMap<Long, Node>,
+                                            createRigidBody: Node.(Long) -> RigidBody): List<RigidBody> {
         val nodesWithIndex = indexNodes(nodes)
         indexToNodeMap.putAll(nodesWithIndex.toMap())
 
         return nodesWithIndex
-            .map { (index, node) -> node.createSolid(index) }
+            .map { (index, node) -> node.createRigidBody(index) }
     }
 
     private fun indexNodes(nodes: List<Node>): List<Pair<Long, Node>> = nodes

@@ -8,8 +8,8 @@ import net.vectorworks.motion.math.linearalgebra.Vector3
  *
  * @author kpresnakov
  */
-interface Solid {
+interface RigidBody {
     val id: Long
-    val coordinates: Vector3
+    val position: Vector3
     val collisionShape: CollisionShape
 }

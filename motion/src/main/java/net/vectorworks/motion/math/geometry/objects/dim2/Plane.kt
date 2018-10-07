@@ -35,19 +35,19 @@ class Plane(val a: Double, val b: Double, val c: Double, val d: Double) {
                 throw IllegalArgumentException("Zero vector can't define a plane: v1: $vector1, v2: $vector2")
             }
 
-            if (Vector3.testForLinearDependence(vector1, vector2)) {
+            if (testForLinearDependence(vector1, vector2)) {
                 throw IllegalArgumentException(
                     "Two linearly dependent vectors can't define a plane: v1: $vector1, v2: $vector2")
             }
 
-            return Plane.fromPointAndNormal(point, vector1 * vector2)
+            return Plane.fromPointAndNormal(point, vector1 x vector2)
         }
 
         fun fromThreePoints(point1: Vector3, point2: Vector3, point3: Vector3): Plane {
             val vector1 = point2 - point1
             val vector2 = point3 - point1
 
-            if (Vector3.testForLinearDependence(vector1, vector2))
+            if (testForLinearDependence(vector1, vector2))
                 throw IllegalArgumentException("The 3 points must not be collinear")
 
             return Plane.fromPointAndTwoVectors(point1, vector1, vector2)

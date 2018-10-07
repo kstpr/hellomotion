@@ -3,6 +3,7 @@ package com.google.ar.sceneform.samples.hellomotion
 import com.google.ar.sceneform.collision.CollisionShape
 import com.google.ar.sceneform.math.Quaternion
 import com.google.ar.sceneform.math.Vector3
+import net.vectorworks.motion.constraints.Constraint
 
 /**
  * Created on 9/22/2018.
@@ -11,10 +12,17 @@ import com.google.ar.sceneform.math.Vector3
  * @author kpresnakov
  */
 
-data class Pose(val position: Vector3, val rotation: Quaternion = Quaternion())
+data class MovableData(
+    val position: Vector3,
+    val rotation: Quaternion = Quaternion(),
+    val constraint: Constraint? = null
+)
 
-data class ImmovableData(val worldPose: Pose, val collisionShape: CollisionShape)
+data class ImmovableData(
+    val worldPose: MovableData,
+    val collisionShape: CollisionShape
+)
 
-data class SceneConfig(val immovableDatas: List<ImmovableData>,
-                       val initialMovablesLocalPoses: List<Pose>,
+data class SceneConfig(val immovableData: List<ImmovableData>,
+                       val movableData: List<MovableData>,
                        val worldBounds: CollisionShape)

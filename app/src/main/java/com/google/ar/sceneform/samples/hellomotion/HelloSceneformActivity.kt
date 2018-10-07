@@ -28,8 +28,8 @@ import android.widget.Toast
 import com.google.ar.core.HitResult
 import com.google.ar.core.Plane
 import com.google.ar.sceneform.AnchorNode
+import com.google.ar.sceneform.samples.hellomotion.motionwrapper.SceneformMotion
 import com.google.ar.sceneform.ux.ArFragment
-
 
 
 class HelloSceneformActivity : AppCompatActivity() {
@@ -46,8 +46,7 @@ class HelloSceneformActivity : AppCompatActivity() {
         }
 
         setContentView(R.layout.activity_ux)
-        arFragment = supportFragmentManager.findFragmentById(R.id.ux_fragment) as? ArFragment ?:
-            throw IllegalStateException("No business without a fragment, buddy!")
+        arFragment = supportFragmentManager.findFragmentById(R.id.ux_fragment) as? ArFragment ?: throw IllegalStateException("No business without a fragment, buddy!")
 
         arFragment.setOnTapArPlaneListener { hitResult: HitResult, plane: Plane, motionEvent: MotionEvent ->
             if (sceneCreated) return@setOnTapArPlaneListener
@@ -61,7 +60,11 @@ class HelloSceneformActivity : AppCompatActivity() {
             sceneCreated = true
             SceneOrchestrator(anchorNode, this)
                 .orchestrateSimpleScene1()
-                .subscribe()
+                .subscribe { sceneElements ->
+                    val motion = SceneformMotion(arFragment.arSceneView.scene)
+                    motion.initialize(sceneElements.movableNodes.map { it.first }, sceneElements.immovableNodes)
+                    motion.start()
+                }
         }
     }
 
@@ -77,12 +80,12 @@ class HelloSceneformActivity : AppCompatActivity() {
                 return false
             }
             val openGlVersionString = (activity.getSystemService(Context.ACTIVITY_SERVICE) as ActivityManager)
-                    .deviceConfigurationInfo
-                    .glEsVersion
+                .deviceConfigurationInfo
+                .glEsVersion
             if (java.lang.Double.parseDouble(openGlVersionString) < MIN_OPENGL_VERSION) {
                 Log.e(TAG, "Sceneform requires OpenGL ES 3.0 later")
                 Toast.makeText(activity, "Sceneform requires OpenGL ES 3.0 or later", Toast.LENGTH_LONG)
-                        .show()
+                    .show()
                 activity.finish()
                 return false
             }
