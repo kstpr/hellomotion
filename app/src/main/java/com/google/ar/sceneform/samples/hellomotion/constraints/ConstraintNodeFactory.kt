@@ -2,6 +2,7 @@ package com.google.ar.sceneform.samples.hellomotion.constraints
 
 import com.google.ar.sceneform.Node
 import com.google.ar.sceneform.NodeParent
+import com.google.ar.sceneform.math.Quaternion
 import com.google.ar.sceneform.math.Vector3
 import com.google.ar.sceneform.rendering.Material
 import com.google.ar.sceneform.rendering.ShapeFactory
@@ -16,7 +17,7 @@ import net.vectorworks.motion.constraints.dim1.SegmentConstraint
  * @author kpresnakov
  */
 
-class ConstraintNodeFactory() {
+class ConstraintNodeFactory {
 
     fun createNode(constraint: Constraint, material: Material, parent: NodeParent): Single<Node> {
         return when (constraint) {
@@ -27,13 +28,18 @@ class ConstraintNodeFactory() {
     }
 
     private fun makeSegmentNode(start: Vector3, end: Vector3, material: Material, parent: NodeParent): Single<Node> {
-        val height = Vector3(start.x - end.x, start.y - end.y, start.z - end.z).length()
+        val direction = Vector3(start.x - end.x, start.y - end.y, start.z - end.z)
+        val center = Vector3((start.x + end.x) / 2f, (start.y + end.y) / 2f, (start.z + end.z) / 2f)
+        val height = direction.length()
 
         return Single.fromCallable {
-            ShapeFactory.makeCylinder(0.1f, height, Vector3.zero(), material)
+            ShapeFactory.makeCylinder(0.0005f, height, Vector3.zero(), material)
         }.map { modelRenderable ->
             Node().apply {
                 renderable = modelRenderable
+                localRotation = Quaternion.rotationBetweenVectors(Vector3.up(), direction)
+                localPosition = center
+                setParent(parent)
             }
         }
     }

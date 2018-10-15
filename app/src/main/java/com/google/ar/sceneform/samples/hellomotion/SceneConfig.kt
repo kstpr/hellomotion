@@ -23,6 +23,8 @@ data class ImmovableData(
     val collisionShape: CollisionShape
 )
 
-data class SceneConfig(val immovableData: List<ImmovableData>,
-                       val movableData: List<MovableData>,
-                       val worldBounds: CollisionShape)
+data class SceneConfig(
+    val immovableData: List<ImmovableData>,
+    val movableData: List<MovableData>,
+    val worldBounds: CollisionShape
+)

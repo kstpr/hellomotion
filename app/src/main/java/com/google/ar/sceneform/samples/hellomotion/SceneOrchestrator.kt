@@ -31,13 +31,15 @@ typealias SceneformColor = com.google.ar.sceneform.rendering.Color
 
 data class SceneElements(
     val immovableNodes: List<Node>,
-    val movableNodes: List<Pair<Node, Constraint?>>
+    val movableNodes: List<Pair<Node, Constraint?>>,
+    val worldBounds: Box?
 )
 
 enum class ElementType {
     MOVABLE,
     IMMOVABLE,
-    CONSTRAINT
+    BOUND_CONSTRAINT,
+    GLOBAL_CONSTAINT
 }
 
 data class MarkedNode(val elementType: ElementType, val node: Node)
@@ -50,7 +52,7 @@ val worldBoxColor = SceneformColor(Color.argb(10, 0, 0, 0))
 // TODO context
 class SceneOrchestrator(private val anchorNode: AnchorNode, private val context: Context) {
 
-    val constraintNodeFactory by lazy { ConstraintNodeFactory() }
+    private val constraintNodeFactory by lazy { ConstraintNodeFactory() }
 
     fun orchestrateSimpleScene1(): Single<SceneElements> {
         return orchestrateScene(simpleScene1)
@@ -77,13 +79,15 @@ class SceneOrchestrator(private val anchorNode: AnchorNode, private val context:
                 val constraints = sceneConfig.movableData.map { it.constraint }
                 SceneElements(
                     immovableNodes = map[ElementType.IMMOVABLE]!!.toList(),
-                    movableNodes = map[ElementType.MOVABLE]!!.toList().zip(constraints)
+                    movableNodes = map[ElementType.MOVABLE]!!.toList().zip(constraints),
+                    worldBounds = map[ElementType.GLOBAL_CONSTAINT]!!.toList()[0].collisionShape as? Box // HOLEEEY
                 )
             }
     }
 
     private fun createEmptySceneElementToNodesMap(): Map<ElementType, MutableList<Node>> = mapOf(
-        ElementType.CONSTRAINT to mutableListOf(),
+        ElementType.BOUND_CONSTRAINT to mutableListOf(),
+        ElementType.GLOBAL_CONSTAINT to mutableListOf(),
         ElementType.IMMOVABLE to mutableListOf(),
         ElementType.MOVABLE to mutableListOf()
     )
@@ -94,7 +98,9 @@ class SceneOrchestrator(private val anchorNode: AnchorNode, private val context:
             .subscribeOn(AndroidSchedulers.mainThread())
             .map { material ->
                 MarkedNode(
-                    elementType = ElementType.CONSTRAINT, node = createWorldNode(worldBounds, material, anchorNode))
+                    elementType = ElementType.GLOBAL_CONSTAINT,
+                    node = createWorldNode(worldBounds, material, anchorNode)
+                )
             }
     }
 
@@ -103,7 +109,7 @@ class SceneOrchestrator(private val anchorNode: AnchorNode, private val context:
             .flatMapPublisher { material: Material ->
                 Flowable.fromIterable(sceneConfig.movableData.map { data -> data to material })
             }
-            .subscribeOn(AndroidSchedulers.mainThread()) // TODO - crashes otherwise but this is not cool!
+            .subscribeOn(AndroidSchedulers.mainThread())
             .map { (data, material) -> createMovableNode(data, material, anchorNode) }
             .map { MarkedNode(ElementType.MOVABLE, node = it) }
     }
@@ -113,7 +119,7 @@ class SceneOrchestrator(private val anchorNode: AnchorNode, private val context:
             .flatMapPublisher { material: Material ->
                 Flowable.fromIterable(sceneConfig.immovableData.map { data: ImmovableData -> data to material })
             }
-            .subscribeOn(AndroidSchedulers.mainThread()) // TODO - crashes otherwise but this is not cool!
+            .subscribeOn(AndroidSchedulers.mainThread())
             .map { (data, material) -> createImmovableNode(data, material, anchorNode) }
             .map { MarkedNode(elementType = ElementType.IMMOVABLE, node = it) }
     }
@@ -131,7 +137,7 @@ class SceneOrchestrator(private val anchorNode: AnchorNode, private val context:
                 constraintNodeFactory.createNode(constraint, material, anchorNode)
             }
             .subscribeOn(AndroidSchedulers.mainThread())
-            .map { MarkedNode(ElementType.CONSTRAINT, it) }
+            .map { MarkedNode(ElementType.BOUND_CONSTRAINT, it) }
     }
 
     private fun createWorldNode(worldBounds: Box, material: Material, parent: NodeParent): Node {

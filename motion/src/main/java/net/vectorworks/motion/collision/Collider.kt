@@ -14,8 +14,8 @@ interface Collider {
     fun hitTestPlane(ray: Ray): HitTestResult
     fun hitTestWorldBounds(ray: Ray): HitTestResult
 
-    fun overlapTest(rigidBody: RigidBody): RigidBody
-    fun overlapTestAll(rigidBody: RigidBody): List<RigidBody>
-    fun overlapTestPlane(rigidBody: RigidBody): Boolean // TODO more info
-    fun overlapTestWorldBounds(rigidBody: RigidBody) : Boolean // TODO more info
+    fun overlapTest(collisionShape: RigidBody): RigidBody
+    fun overlapTestAll(collisionShape: RigidBody): List<RigidBody>
+    fun overlapTestPlane(collisionShape: RigidBody): Boolean // TODO more info
+    fun overlapTestWorldBounds(collisionShape: RigidBody) : Boolean // TODO more info
 }

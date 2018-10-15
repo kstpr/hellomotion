@@ -62,7 +62,11 @@ class HelloSceneformActivity : AppCompatActivity() {
                 .orchestrateSimpleScene1()
                 .subscribe { sceneElements ->
                     val motion = SceneformMotion(arFragment.arSceneView.scene)
-                    motion.initialize(sceneElements.movableNodes.map { it.first }, sceneElements.immovableNodes)
+                    motion.initialize(
+                        sceneElements.movableNodes.map { it.first }, // TODO pass proper constraints
+                        sceneElements.immovableNodes,
+                        sceneElements.worldBounds
+                    )
                     motion.start()
                 }
         }

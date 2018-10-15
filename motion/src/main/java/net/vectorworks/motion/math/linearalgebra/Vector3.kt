@@ -35,11 +35,13 @@ infix fun Vector3.x(other: Vector3) = Vector3(
     z = this.x * other.y - this.y * other.x)
 
 // Scalar multiplication
-operator fun Vector3.times(scalar: Double) = Vector3(this.x * scalar, this.y * scalar, z = this.z * scalar)
+operator fun Double.times(vector: Vector3) = Vector3(this * vector.x, this * vector.y, z = this * vector.z)
 
 operator fun Vector3.minus(other: Vector3) = Vector3(this.x - other.x, this.y - other.y, this.z - other.z)
 
 operator fun Vector3.plus(other: Vector3) = Vector3(this.x + other.x, this.y + other.y, this.z + other.z)
+
+operator fun Vector3.unaryMinus() = Vector3(-this.x, -this.y, -this.z)
 
 fun Vector3.length() = sqrt(x * x + y * y + z * z)
 

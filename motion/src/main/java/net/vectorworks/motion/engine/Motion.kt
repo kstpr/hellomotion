@@ -4,7 +4,7 @@ import net.vectorworks.motion.collision.Collider
 import net.vectorworks.motion.collision.CollisionShape
 import net.vectorworks.motion.core.Immovable
 import net.vectorworks.motion.core.Movable
-import net.vectorworks.motion.core.recalculatePosition
+import net.vectorworks.motion.kinematics.VelocityMonitor
 import net.vectorworks.motion.loop.PeriodicExecutor
 import net.vectorworks.motion.math.linearalgebra.Vector3
 import net.vectorworks.motion.time.TimeProvider
@@ -24,10 +24,14 @@ class Motion(private val collider: Collider) {
     private var worldBounds: CollisionShape? = null
     private var previousTick: Long = -1L
 
+    private lateinit var velocityMonitor: VelocityMonitor
+
     fun initialize(movables: List<Movable>, immovables: List<Immovable>, worldBounds: CollisionShape?) {
         this.movables.addAll(movables)
         this.immovables.addAll(immovables)
         this.worldBounds = worldBounds
+
+        velocityMonitor = VelocityMonitor(movables, immovables, worldBounds)
 
         periodicExecutor = PeriodicExecutor()
     }
@@ -48,8 +52,11 @@ class Motion(private val collider: Collider) {
         periodicExecutor.execute {
             val currentTick = TimeProvider.now()
             val timeDelta = currentTick - previousTick
+
+            velocityMonitor.recalculatePositions(timeDelta)
+
             previousTick = currentTick
-            movables.forEach {it.recalculatePosition(timeDelta)}
+
             onWorldChangedListener.onWorldChanged(movables.map{it.id to it.position})
         }
     }
@@ -59,5 +66,5 @@ class Motion(private val collider: Collider) {
 }
 
 private fun List<Movable>.randomizeVelocities() {
-    this.forEach{ it.velocity = Vector3(0.01, 0.00, 0.01) }
+    this.forEach{ it.velocity = Vector3(0.08, 0.00, 0.08) }
 }

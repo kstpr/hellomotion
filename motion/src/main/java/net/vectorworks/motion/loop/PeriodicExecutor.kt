@@ -16,8 +16,9 @@ class PeriodicExecutor {
 
     var periodicTaskDisposable: Disposable? = null
 
-    // Extremely rough and testing-only update mechanism, ensure that periodicTask <= 16.67 ms, else we should have
-    // a mechanism for skipping frames
+    // TODO Extremely rough and testing-only update mechanism, ensure that periodicTask <= 16.67 ms, else we should have
+    // TODO a mechanism for skipping frames
+    // TODO Or better an interface to hook to the time pulse from Sceneform or other consumers
     fun execute(emissionFrequency: Long = 60L, periodicTask: () -> Unit) {
         val intervalInMillis = ((1.0 / emissionFrequency) * 1_000L).toLong()
         periodicTaskDisposable = Flowable.interval(intervalInMillis, java.util.concurrent.TimeUnit.MILLISECONDS)

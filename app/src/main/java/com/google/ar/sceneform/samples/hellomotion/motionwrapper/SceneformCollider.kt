@@ -28,19 +28,19 @@ class SceneformCollider(val scene: Scene) : Collider {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
-    override fun overlapTest(rigidBody: RigidBody): RigidBody {
+    override fun overlapTest(collisionShape: RigidBody): RigidBody {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
-    override fun overlapTestAll(rigidBody: RigidBody): List<RigidBody> {
+    override fun overlapTestAll(collisionShape: RigidBody): List<RigidBody> {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
-    override fun overlapTestPlane(rigidBody: RigidBody): Boolean {
+    override fun overlapTestPlane(collisionShape: RigidBody): Boolean {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
-    override fun overlapTestWorldBounds(rigidBody: RigidBody): Boolean {
+    override fun overlapTestWorldBounds(collisionShape: RigidBody): Boolean {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
